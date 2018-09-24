@@ -1,0 +1,34 @@
+.benimalanim1,.benimalanim2{
+  background:blue;
+
+}
+.benimalanim1{
+  margin-bottom: 10px;
+}
+.benimalanim2{
+  color:yellow;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.benimalanim2 span
+{
+  background: white;
+}
+.link
+{
+  background: aqua;
+  color: darkslateblue;
+  text-decoration: none;
+}
+.link:hover
+{
+  background: red;
+}
+.link:active
+{
+  background: black;
+}
+.link:focus
+{
+  background:yellow;
+}
