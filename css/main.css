@@ -32,3 +32,41 @@
 {
   background:yellow;
 }
+ul{
+  list-style-type: none;
+  padding-left:0px;
+  
+}
+li:first-child{
+  background: red;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+li:last-child{
+  background: yellow;
+  font-family: 'Open Sans', sans-serif;
+}
+tr:nth-child(odd)
+{
+  background: gray;
+  /*even bir satır boş bırakır.
+  odd ise ilk satır dolu bir satır boş devam eder.*/
+}
+td:first-child:hover{
+  color: blue;
+  background: red;
+}
+td:nth-child(odd):hover
+{
+  background: red;
+  color: blue;
+}
+th:nth-child(odd):hover
+{
+  background: red;
+  color: blue;
+}
+td:nth-child(2):hover{
+  background:red;
+  color: blue;
+}
