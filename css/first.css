@@ -1,4 +1,18 @@
-li:hover::first-letter{
-  font-size: 50px;
-  background: red;
+ol{
+  list-style-type: none;
+}
+.first_letter li:hover::first-letter{
+ 
+ /*content: url("file:///c:/Users/OKAN/Desktop/html-css/media/java.jpg");
+ width: 100px;
+ height: 100px;*/
+ background: red;
+ color: aqua;
+ font-size: 40px;
+}
+.first_line li:hover::first-line{
+  background: rgb(122, 41, 41);
+  color:blue;
+  font-size:40px;
+  list-style-type: none;
 }
