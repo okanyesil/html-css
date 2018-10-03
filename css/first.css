@@ -1,5 +1,5 @@
-ol{
-  list-style-type: none;
+ul{
+  list-style-type:circle;
 }
 .first_letter li:hover::first-letter{
  
@@ -14,5 +14,12 @@ ol{
   background: rgb(122, 41, 41);
   color:blue;
   font-size:40px;
-  list-style-type: none;
+  
+}
+li::before,li::after{
+  content: "";
+  display: inline-block;
+  background: rgba(100, 240,130, 0.3);
+  width: 10px;
+  height: 10px;
 }
