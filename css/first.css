@@ -23,7 +23,7 @@ li::before,li::after{
   width: 10px;
   height: 10px;
 }
-td p:target{
+ p:target{
   background: yellow;
   color:red;
   font-size:24px;
