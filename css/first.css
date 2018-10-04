@@ -28,3 +28,8 @@ li::before,li::after{
   color:red;
   font-size:24px;
 }
+::selection{
+  background: purple;
+  font-size: 40px;
+  color:blue;
+}
