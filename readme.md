@@ -1,0 +1,1 @@
+Web programalama temelleri kursunda yapýlan örneklerin tekrarlarý ya da kendime göre deðiþtirip yazdýðým html-css kod parçacýklarý

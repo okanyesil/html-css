@@ -1,0 +1,8 @@
+div:empty{
+  background: red;
+  height: 30px;
+  width: 200px;
+}
+:not(p){
+  color: red;
+}
